@@ -221,10 +221,17 @@ function initLightbox() {
   const nextBtn = document.getElementById('lightbox-next');
   let index = 0;
 
-  function render() {
-    const label = items[index].dataset.label;
-    stage.innerHTML = placeholderImage(label);
-  }
+const GALLERY_IMAGES = {
+  'Exterior': 'assets/images/orange-room-exterior.jpg',
+  'Bedroom': 'assets/images/orange-room-bedroom.jpg',
+  'Living Room': 'assets/images/orange-room-living-room.jpg',
+  'Bathroom': 'assets/images/orange-room-bathroom.jpg',
+};
+function render() {
+  const label = items[index].dataset.label;
+  const src = GALLERY_IMAGES[label];
+  stage.innerHTML = `<img src="${src}" alt="The Orange Room — ${label}" style="width:100%;height:100%;object-fit:cover;">`;
+}
   function open(i) {
     index = i;
     render();
