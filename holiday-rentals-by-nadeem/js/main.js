@@ -222,10 +222,10 @@ function initLightbox() {
   let index = 0;
 
 const GALLERY_IMAGES = {
-  'Exterior': 'assets/images/orange-room-exterior.jpg',
-  'Bedroom': 'assets/images/orange-room-bedroom.jpg',
-  'Living Room': 'assets/images/orange-room-living-room.jpg',
-  'Bathroom': 'assets/images/orange-room-bathroom.jpg',
+  'Exterior': 'assets/images/orange-room-exterior.avif',
+  'Bedroom': 'assets/images/orange-room-bedroom.avif',
+  'Living Room': 'assets/images/orange-room-living-room.avif',
+  'Bathroom': 'assets/images/orange-room-bathroom.avif',
 };
 function render() {
   const label = items[index].dataset.label;
