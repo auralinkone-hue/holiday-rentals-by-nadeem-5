@@ -40,7 +40,7 @@ const RENTAL_PROPERTIES = [
     ],
     description: 'Premium stay in Bahria Town Phase 8, Islamabad. A fully equipped two-bedroom villa, comfortable for up to four guests.',
     instagram: 'https://www.instagram.com/p/Db-3ggYNlbt/',
-    reel: null,
+    reel: https://www.instagram.com/p/Db-3ggYNlbt/,
   },
   {
     id: 'bahria-phase8-unit',
@@ -51,7 +51,7 @@ const RENTAL_PROPERTIES = [
     facts: [],
     description: 'Full unit available for booking in Bahria Town Phase 8, Islamabad. Celebrate freedom. Enjoy the holidays.',
     instagram: 'https://www.instagram.com/p/Db08MMVNmjj/',
-    reel: null,
+    reel: https://www.instagram.com/p/Db08MMVNmjj/,
   },
 ];
 
