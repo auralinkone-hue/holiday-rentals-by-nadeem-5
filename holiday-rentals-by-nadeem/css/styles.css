@@ -93,7 +93,7 @@ h1, h2, h3, h4 {
 }
 .btn:active { transform: scale(0.97); }
 .btn-icon { width: 17px; height: 17px; flex-shrink: 0; }
-.btn-icon-white { filter: brightness(0) invert(1); }
+.btn-icon-white { filter: none; } /* icons are full-color PNGs — no invert needed */
 
 .btn-primary {
   background: var(--ink-deep); color: var(--ivory); overflow: hidden; z-index: 0;
@@ -129,7 +129,7 @@ h1, h2, h3, h4 {
 .hero-actions .btn-whatsapp-ghost .btn-icon,
 .contact-actions .btn-whatsapp-ghost .btn-icon { filter: none; }
 .btn-whatsapp-ghost:hover { background: var(--wa-green); color: var(--white); border-color: var(--wa-green); }
-.btn-whatsapp-ghost:hover .btn-icon { filter: brightness(0) invert(1); }
+.btn-whatsapp-ghost:hover .btn-icon { filter: none; }
 
 .btn-airbnb { background: var(--ink-deep); color: var(--ivory); }
 .btn-airbnb svg { width: 17px; height: 17px; flex-shrink: 0; }
@@ -140,7 +140,7 @@ h1, h2, h3, h4 {
   background: transparent; border: 1px solid var(--border); color: var(--ink-soft); font-size: 13px; padding: 12px 24px;
 }
 .btn-instagram-outline:hover { border-color: transparent; background: var(--ig-gradient); color: var(--white); }
-.btn-instagram-outline:hover .btn-icon { filter: brightness(0) invert(1); }
+.btn-instagram-outline:hover .btn-icon { filter: none; }
 
 /* Instagram — solid brand gradient (used for the main Follow CTA) */
 .btn-instagram-solid {
